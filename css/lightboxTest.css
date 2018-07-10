@@ -1,0 +1,13 @@
+.grassland img{
+    width: 100%;
+}
+.animal {
+    position: absolute;
+}
+.animal img {
+    width: 150px;
+}
+.animal.saber_tiger {
+    top: 15%;
+    left: 40%;
+}
