@@ -4,16 +4,8 @@
     <meta charset="UTF-8">
     <title>切り替え</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script>
-        function showIppan() {
-            document.getElementById("ippan_area").className = "active";
-            document.getElementById("hojin_area").className = "passive";
-        }
-        function showHojin() {
-            document.getElementById("ippan_area").className = "passive";
-            document.getElementById("hojin_area").className = "active";
-        }
-    </script>
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="toggle.js"></script>
 </head>
 <body>
     <input type="radio" name="target" value="i" onchange="showIppan();" checked>一般用
